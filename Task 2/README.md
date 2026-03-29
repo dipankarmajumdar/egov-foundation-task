@@ -1,16 +1,40 @@
-# React + Vite
+# Technical Assessment - UI Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the completed technical tasks for the evaluation. I have implemented the same UI using two different approaches as requested.
 
-Currently, two official plugins are available:
+## 📂 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The assessment consists of two main tasks:
 
-## React Compiler
+1. **Task 1:** Static UI implementation using **HTML5, CSS3, and Bootstrap**.
+2. **Task 2:** Component-based UI implementation using **React.js, CSS, and Bootstrap**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **HTML5 & CSS3** (Semantic layout and custom styling)
+- **Bootstrap 5** (Responsive grid and pre-built components)
+- **React.js** (Functional components and modular architecture)
+- **JavaScript (ES6+)**
+
+---
+
+## 🚀 How to Run the Projects
+
+### Task 1: HTML/CSS/Bootstrap
+
+1. Navigate to the `Task 1` folder.
+2. Open `index.html` directly in any web browser.
+
+### Task 2: React Implementation
+
+1. Navigate to the `Task 2` project directory.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the application:**
+   ```bash
+   npm start
+   ```
