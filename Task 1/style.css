@@ -1,0 +1,203 @@
+:root {
+  --primary-navy: #002a5c;
+  --accent-cyan: #00b5c2;
+  --text-dark: #333333;
+  --font-main: "DM Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Typography & Colors */
+.text-primary-navy {
+  color: var(--primary-navy);
+}
+.text-accent-cyan {
+  color: var(--accent-cyan);
+}
+.bg-primary-navy {
+  background-color: var(--primary-navy) !important;
+}
+
+/* Buttons */
+.btn-cyan {
+  background-color: var(--accent-cyan);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 25px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-cyan:hover {
+  background-color: #009aa5;
+  color: white;
+}
+
+.btn-outline-custom {
+  background-color: transparent;
+  color: var(--primary-navy);
+  border: 1.5px solid #e0e0e0 !important;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+  border-color: var(--accent-cyan) !important;
+  color: var(--accent-cyan);
+}
+
+/* Header & Nav */
+.navbar-nav .nav-link {
+  color: var(--primary-navy);
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--accent-cyan);
+}
+
+/* Hero Section */
+.hero-section h1 {
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* Stats Section */
+.stats-bg-wrapper {
+  min-height: 500px;
+}
+
+/* Video Card & Play Button */
+.video-card {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 181, 194, 0.8);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Latest Section Pills */
+.btn-pill-active {
+  background-color: var(--accent-cyan);
+  color: white;
+  border-radius: 50px;
+  padding: 8px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid var(--accent-cyan);
+}
+
+.btn-pill-outline {
+  background-color: transparent;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+  border-radius: 50px;
+  padding: 8px 25px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.btn-pill-outline:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+/* Article Cards */
+.article-card {
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.article-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Supporters */
+.grayscale-logo {
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: 0.3s;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.grayscale-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Footer */
+.footer-desc {
+  color: #555;
+  font-size: 1rem;
+}
+
+.social-circle {
+  width: 35px;
+  height: 35px;
+  border: 1px solid var(--primary-navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-navy);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-circle:hover {
+  background-color: var(--primary-navy);
+  color: white;
+}
+
+.btn-orange-sq {
+  background-color: #f37021;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Utilities */
+.ls-2 {
+  letter-spacing: 2px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  .stats-bg-wrapper .display-1 {
+    font-size: 3rem;
+  }
+}
